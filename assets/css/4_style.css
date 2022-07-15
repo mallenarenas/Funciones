@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.divs{
+    width: 200px;
+    height: 200px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: yellow;
+}
