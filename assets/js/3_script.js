@@ -15,12 +15,14 @@
 // });
       
 // 2- Segunda modificación: (función con argumento color)
-function pintar( element , color='green'){
-      element.style.backgroundColor = color
+document.getElementById("ele1").style.backgroundColor ='green';
+function pintar( element , color){
+      element.style.backgroundColor = color;
     }
-let ele = document.getElementById("ele1")
+let ele = document.getElementById("ele1");
+let colorYellow = 'yellow';
 ele.addEventListener("click", () => {
-      pintar(ele, 'yellow')
+      pintar(ele, colorYellow);
 });
 
 
